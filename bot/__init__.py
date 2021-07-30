@@ -78,15 +78,15 @@ LOCAL = __import__(name = 'bot.locals.' + CONFIG.LOCAL, fromlist = ['LOCAL']).LO
 
 COMMAND = Config({
     'START' : 'start@newakshaytestbot',
-    'PASSWORD' : 'pass',
-    'HELP' : 'help',
+    'PASSWORD' : 'pass@newakshaytestbot',
+    'HELP' : 'help@newakshaytestbot',
     'LEECH' : 'leech@newakshaytestbot',
-    'CANCEL_LEECH' : 'cancel',
-    'LEECH_LIST' : 'list',
-    'UPLOAD_AS_DOC' : 'upload_as_doc',
-    'UPLOAD_AS_ZIP' : 'upload_as_zip',
-    'SET_THUMBNAIL' : 'set_thumbnail',
-    'RESET_THUMBNAIL' : 'reset_thumbnail',
+    'CANCEL_LEECH' : 'cancel@newakshaytestbot',
+    'LEECH_LIST' : 'list@newakshaytestbot',
+    'UPLOAD_AS_DOC' : 'upload_as_doc@newakshaytestbot',
+    'UPLOAD_AS_ZIP' : 'upload_as_zip@newakshaytestbot',
+    'SET_THUMBNAIL' : 'set_thumbnail@newakshaytestbot',
+    'RESET_THUMBNAIL' : 'reset_thumbnail@newakshaytestbot',
     'SET_TRACKER' : 'set_tracker'
 }, 'COMMAND_')
 
